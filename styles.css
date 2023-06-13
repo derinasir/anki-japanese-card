@@ -119,8 +119,8 @@ a:hover {
     flex-grow: 0;
 }
 
-.tr {
-    /* TR */
+.nat {
+    /* NAT */
 
     /* Auto layout */
     display: flex;
@@ -138,7 +138,7 @@ a:hover {
     flex-grow: 0;
 }
 
-.tr_reading {
+.nat_reading {
     /* Header */
 
     height: 33px;
@@ -268,8 +268,8 @@ a:hover {
     flex-grow: 0;
 }
 
-.ex_tr {
-    /* Turkish */
+.ex_nat {
+    /* Native */
 
     width: 87px;
     height: 27px;
