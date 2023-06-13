@@ -1,0 +1,353 @@
+.card {
+    background-color: #f4ece3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    all: unset;
+    transition: 150ms;
+}
+
+a:hover {
+    transition: 150ms;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    color: lightgreen;
+}
+
+a:
+
+.front {
+    /* Card Front */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    position: relative;
+    width: 560px;
+    height: 360px;
+
+    background: #FFFFFF;
+}
+
+.back {
+    /* Card Back */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+    position: relative;
+    width: 560px;
+    height: 360px;
+
+    background: #FFFFFF;
+}
+
+.answer {
+    /* Answer */
+
+    height: 147px;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 1;
+}
+
+.readings {
+    /* Readings */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 1;
+}
+
+.kun_on {
+    /* Kun and On */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.yomi {
+    /* Yomi */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+
+    height: 35px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.tr {
+    /* TR */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+
+    height: 33px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.tr_reading {
+    /* Header */
+
+    height: 33px;
+
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.header {
+    /* Header */
+
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    /* identical to box height */
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.reading {
+    /* Reading */
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+
+    /* identical to box height */
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.divider {
+    /* Divider */
+
+    width: 528px;
+    height: 0px;
+    margin: 0px;
+    padding: 0px;
+
+    border: 1px solid #000000;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.kanji_back {
+    /* Kanji */
+
+    font-family: 'Klee One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    color: #000000;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 1;
+}
+
+.kanji_front {
+    font-family: 'Klee One';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 371px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.ex_jp {
+    /* Japanese */
+
+    width: 100px;
+    height: 29px;
+
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.ex_tr {
+    /* Turkish */
+
+    width: 87px;
+    height: 27px;
+
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.dot {
+    /* Dot */
+
+    width: 20px;
+    height: 29px;
+
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.example_words {
+    /* Example Words */
+
+    height: 147px;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 16px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 1;
+}
+
+.example_word {
+    /* Example Word #1 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
